@@ -57,21 +57,11 @@ nav a:hover {
   color: white;
 }
 
-.contact-button,
-.button-join {
-  background-color: #843936;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-.contact-button:hover,
-.button-join:hover {
-  background-color: #007aab;
-  color: white;
-}
-
 .book,
 .join {
+  display: block;
+  width: 115px;
+  margin: auto;
   background-color: #843936;
   color: white;
   text-decoration: none;
@@ -79,6 +69,7 @@ nav a:hover {
   padding: 15px;
   margin-top: 50px;
   border-radius: 5px;
+  border: solid white;
 }
 
 .book:hover,
