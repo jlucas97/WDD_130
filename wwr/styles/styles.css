@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima&family=Lato:ital@1&display=swap");
+
+:root {
+  --heading-font: "Arima", sans-serif;
+  --paragraph-font: "Lato:ital", Helvetica;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
+}
+
+body {
+  background-color: #007aab;
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 nav a {
@@ -21,12 +40,12 @@ main section {
   text-align: center;
 }
 
-#background {
-  height: 725px;
+main section img {
+  box-sizing: border-box;
 }
 
-body {
-  background-color: #007aab;
+#background {
+  height: 725px;
 }
 
 header {
@@ -38,11 +57,28 @@ nav a:hover {
   color: white;
 }
 
+.contact-button,
+.button-join {
+  background-color: #843936;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.contact-button:hover,
+.button-join:hover {
+  background-color: #007aab;
+  color: white;
+}
+
 .book,
 .join {
   background-color: #843936;
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -57,20 +93,27 @@ nav a:hover {
 
 .msg {
   background-color: #007aab;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 footer {
   background-color: #15597e;
   color: white;
-  font-size: 1.2em;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 
 nav a {
   color: white;
+  padding: 35px;
 }
 
 .home-title {
   color: white;
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -79,9 +122,12 @@ h4 {
 
 .msg h2 {
   color: white;
+  font-family: var(--heading-font);
 }
 .msg p {
   color: white;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 footer a {
@@ -89,16 +135,26 @@ footer a {
   text-decoration: none;
 }
 
+footer .social img {
+  height: 40px;
+  padding-top: 15px;
+}
+
 footer a:hover {
   color: white;
 }
 
 .logo {
-  width: 80px;
+  width: 60px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
@@ -107,4 +163,18 @@ footer a:hover {
 
 footer p a:hover {
   text-decoration: underline;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #000000;
+}
+
+.mountains {
+  margin: 80px 0 120px;
 }
