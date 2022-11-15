@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima&family=Lato:ital@1&display=swap");
 
 :root {
-  --heading-font: "Arima", sans-serif;
-  --paragraph-font: "Lato:ital", Helvetica;
+  --heading-font: "Arima", sans-serif, Arial;
+  --paragraph-font: "Lato:ital", Helvetica, sans-serif;
 }
 
 #content {
