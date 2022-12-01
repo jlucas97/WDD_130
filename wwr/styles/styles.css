@@ -230,6 +230,91 @@ footer p a:hover {
   width: 100%;
 }
 
+#hero-events {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box-events {
+  grid-area: 1 / 1 / 4 / 5;
+}
+
+#hero-img-events {
+  width: 80%;
+  height: 550px;
+  display: flex;
+  margin: 14px auto;
+}
+
+#hero-msg-events {
+  grid-area: 2/2/3/3;
+  color: bisque;
+  font-size: 40px;
+  justify-self: center;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(5, 2fr);
+  color: white;
+  padding: 5px;
+}
+
+#events-grid-prices {
+  grid-column: 1/3;
+  font-size: 40px;
+  margin: 15px 40px;
+  color: bisque;
+  align-self: center;
+}
+
+#trip-1-info {
+  border: solid 2px black;
+  margin: 10px 0 10px 10px;
+}
+
+#trip-1-dates {
+  border: solid 2px black;
+  margin: 10px 10px 10px 0;
+}
+
+#trip-2-info {
+  border: solid 2px black;
+  margin: 10px 0 10px 10px;
+}
+
+#trip-2-dates {
+  border: solid 2px black;
+  margin: 10px 10px 10px 0;
+}
+
+#trip-3-info {
+  border: solid 2px black;
+  margin: 10px 0 10px 10px;
+}
+
+#trip-3-dates {
+  border: solid 2px black;
+  margin: 10px 10px 10px 0;
+}
+
+#trip-4-info {
+  border: solid 2px black;
+  margin: 10px 0 10px 10px;
+}
+
+#trip-4-dates {
+  border: solid 2px black;
+  margin: 10px 10px 10px 0;
+}
+
+.footer-events {
+  margin-top: 100px;
+}
+
 @media screen and (max-width: 900px) {
   #hero,
   .home-grid {
