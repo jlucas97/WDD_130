@@ -110,7 +110,7 @@ main h2 {
 
 .main-edu {
   display: grid;
-  grid-template-rows: 1fr, repeat(3, 1fr);
+  grid-template-rows: 1fr repeat(3, 1fr);
 }
 
 .main-edu h1 {
@@ -150,5 +150,5 @@ footer {
 
 .social {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
