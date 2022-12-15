@@ -110,12 +110,19 @@ main h2 {
 
 .main-edu {
   display: grid;
-  grid-template-rows: 1fr repeat(3, 1fr);
+  grid-template-rows: 160px repeat(3, 500px);
+  row-gap: 2ch;
+  margin-bottom: 40px;
 }
 
 .main-edu h1 {
   padding-left: 20px;
   color: var(--accent1-color);
+}
+
+.title {
+  font-weight: bolder;
+  font-size: larger;
 }
 
 .college {
@@ -125,7 +132,9 @@ main h2 {
 
 .college img {
   padding: 50px;
+  padding-bottom: 0;
   width: 400px;
+  height: 385px;
 }
 
 .college p {
@@ -135,7 +144,56 @@ main h2 {
 .college-div {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 50px;
+  row-gap: 1px;
+}
+
+.college-online {
+  display: flex;
+  border: 10px solid #000000;
+}
+
+.college-online img {
+  padding: 50px;
+  width: 400px;
+  height: 350px;
+}
+
+.college-online-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  row-gap: 0px;
+}
+
+.college-online .title {
+  margin-bottom: 0;
+}
+
+.college-online-div ul {
+  margin-top: 0;
+}
+
+.high-school {
+  display: flex;
+  border: 10px solid #000000;
+}
+
+.high-school img {
+  padding: 50px;
+  padding-bottom: 0;
+  width: 400px;
+  height: 385px;
+}
+
+.high-school-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 50px;
+  row-gap: 1px;
 }
 
 footer {
